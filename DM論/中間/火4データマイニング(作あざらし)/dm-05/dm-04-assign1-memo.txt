@@ -1,0 +1,21 @@
+(課題1)
+大規模にCOVID-19のPCR検査を行ったときの問題点
+
+罹患率が1/200だとすると、無作為に100万人を選ぶと5000人くらいが罹患している。
+
+この100万人にPCR検査を行うと、P(陽性)が0.01345 (約1.3%) なので、1.3万人くらいが陽性になる。しかし陽性のうち真の罹患者は26%で、残りの74% (9953人)は、本当は罹患していない。陽性となった無症状の人を入院させるのは、医療リソースの無駄を発生させる。また98.7万人が陰性になるが、そのうち100-99.8%=0.2%、つまり約1973人は実は罹患者。この1973人は、罹患しているのに出歩くことになる。
+
+医師が症状をみて、必要に応じてPCR検査にかけ、検査人数に対する罹患率が1/10になったとすると、陽性者の88.6%が真の罹患者。医療リソースの無駄が減ることがわかる。また、1回の陰性では96.7%が非罹患者だが、2回陰性を条件にすると、99.0%が非罹患者、と精度が向上する。ただ、やはり1.0%、つまり100人に1人は罹患者を見逃すので、2回陰性だから罹患していない、という証明にはならない。
+
+※医師が必要だと思ったときには必ずPCR検査ができる体制は当然必要だが、網羅的にPCR検査を行うことは、(陽性者が発生したエリアに大規模なロックダウンを実施できないのであれば)効率が良くないことが分かる。
+
+(Assignment 1)
+Problems with PCR testing for COVID-19 on a large scale
+
+Assuming that the incidence rate is 1/200, if we randomly select 1 million people, about 5,000 people are affected.
+
+When the PCR test is performed on these 1 million people, the P(posi) is 0.01345 (about 1.3%), which means that about 13,000 people will be positive. However, of those, only 26% are truly affected, and the remaining 74% (9953 people) are not really affected. Hospitalizing asymptomatic people who test positive is a waste of medical resources. Also, 987,000 people will test negative, of which 100-99.8% = 0.2%, or about 1973 people are actually affected. These 1973 people will be walking around with the disease.
+
+If a doctor looks at the symptoms and, if necessary, runs a PCR test, and if the incidence rate for the number of people tested is reduced to 1/10, then 88.6% of those who test positive are truly affected. This shows a reduction in the waste of medical resources. In addition, if one negative result is used, 96.7% of the patients are non-affected, but if two negative results are used, 99.0% of the patients are non-affected, which improves the accuracy. However, it still misses 1.0%, or 1 out of every 100 people, so it does not prove that you do not have the disease because you tested negative twice.
+
+It is necessary to have a system that allows doctors to conduct PCR tests whenever they think it is necessary, but it is not efficient to conduct exhaustive PCR tests (if a large-scale lockdown cannot be implemented in areas where positive cases occur).
